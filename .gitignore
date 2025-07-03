@@ -16,3 +16,16 @@ eggs/
 .installed.cfg
 *.egg
 MANIFEST
+
+
+# Environment
+.env
+
+
+# Testing
+.pytest_cache/
+
+
+# Project specific
+lightning_logs/
+.gradio/

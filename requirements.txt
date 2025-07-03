@@ -1,0 +1,45 @@
+# Core dependencies
+torch
+torchvision
+google-generativeai
+pydantic-settings
+pydantic
+
+# Computer Vision
+opencv-python
+Pillow
+numpy
+matplotlib
+seaborn
+plotly
+
+# DeepForest
+deepforest
+rasterio
+geopandas
+albumentations<2.0
+
+# Data processing
+pandas
+pyyaml
+
+# Web interface
+gradio
+fastapi
+requests
+
+# Utilities
+python-dotenv
+shapely
+scikit-image
+tqdm
+
+# Additional
+openai
+gradio_image_annotation
+
+# Dev tools
+pre-commit
+pytest
+pytest-profiling
+yapf

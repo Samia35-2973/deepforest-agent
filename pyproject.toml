@@ -1,0 +1,62 @@
+[project]
+name = "deepforest_agent"
+version = "0.1.0"
+description = "AI Agent for DeepForest object detection"
+authors = [
+    {name = "Your Name", email = "you@example.com"}
+]
+requires-python = ">=3.12"
+readme = "README.md"
+dependencies = [
+    # Core dependencies
+    "torch",
+    "torchvision",
+    "google-generativeai",
+    "pydantic-settings",
+    "pydantic",
+
+    # Computer Vision
+    "opencv-python",
+    "Pillow",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "plotly",
+
+    # DeepForest
+    "deepforest",
+    "rasterio",
+    "geopandas",
+    "albumentations<2.0",
+
+    # Data processing
+    "pandas",
+    "pyyaml",
+
+    # Web interface
+    "gradio",
+    "fastapi",
+    "requests",
+
+    # Utilities
+    "python-dotenv",
+    "shapely",
+    "scikit-image",
+    "tqdm",
+
+    # Additional
+    "openai",
+    "gradio_image_annotation"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit",
+    "pytest",
+    "pytest-profiling",
+    "yapf"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
